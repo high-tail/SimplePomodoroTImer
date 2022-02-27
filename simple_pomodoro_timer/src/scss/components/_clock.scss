@@ -1,0 +1,23 @@
+@use "../custom" as *;
+
+.displayArea {
+  border-radius: 5px;
+  width: 50%;
+
+  @media only screen and (max-device-width: 480px) {
+    width: auto;
+  }
+  
+  background: #e39a9c;
+
+  #displayTime {
+    font-size: 80px;
+    font-weight: bolder;
+  }
+}
+
+#pomodoro {
+  background: #e35e61;
+  height: 100vh;
+  color: whitesmoke;
+}

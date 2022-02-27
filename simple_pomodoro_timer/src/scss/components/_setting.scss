@@ -1,0 +1,17 @@
+@use "../custom" as *;
+
+.settingArea {
+  width: 50%;
+
+  @media only screen and (max-device-width: 480px) {
+    width: auto;
+  }
+
+  .accordion-header {
+    background-color: gray;
+    border-radius: 5px;
+    .accordion-button {
+      background-color: gray;
+    }
+  }
+}
